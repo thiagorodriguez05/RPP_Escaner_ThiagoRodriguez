@@ -52,27 +52,15 @@ namespace Entidades
             {
                 //verificamos si los dos documnetos son del mismo tipo
                 //y verificamos si el escaner es de tipo mapa o libro al igual q el documento d 
-                if (d.GetType() == doc.GetType() && ((e.Tipo == TipoDoc.mapa && d is Mapa) || (e.Tipo == TipoDoc.libro && d is Libro)))
+                if ((doc is Libro libro && d is Libro) || (doc is Mapa mapa && d is Mapa))
                 {
-
-                    if (d.GetType() == typeof(Libro))
+                    if (doc is Libro aux1 && d is Libro aux2 && aux1 == aux2)
                     {
-                        Libro aux1 = (Libro)doc;
-                        Libro aux2 = (Libro)d;
-                        if (aux1 == aux2)
-                        {
-                            retorno = true;
-                        }
+                        retorno = true;
                     }
-                    else
+                    else if (doc is Mapa aux3 && d is Mapa aux4 && aux3 == aux4)
                     {
-                        Mapa aux1 = (Mapa)doc;
-                        Mapa aux2 = (Mapa)d;
-
-                        if (aux1 == aux2)
-                        {
-                            retorno = true;
-                        }
+                        retorno = true;
                     }
                 }
                 else

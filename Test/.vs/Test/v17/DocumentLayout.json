@@ -3,11 +3,11 @@
   "WorkspaceRootPath": "C:\\Users\\Thiago\\OneDrive\\Escritorio\\RPP_Escaner_ThiagoRodriguez\\Test\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{E3B7F985-8F0D-46C5-94B0-54D3F6B2543B}|Test\\Test.csproj|C:\\Users\\Thiago\\OneDrive\\Escritorio\\RPP_Escaner_ThiagoRodriguez\\Test\\test\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E3B7F985-8F0D-46C5-94B0-54D3F6B2543B}|Test\\Test.csproj|solutionrelative:test\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{DD1BCAC7-6103-494C-B597-01EEBE4601EE}|..\\Entidades\\Entidades\\Entidades.csproj|c:\\users\\thiago\\onedrive\\escritorio\\rpp_escaner_thiagorodriguez\\entidades\\entidades\\escaner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DD1BCAC7-6103-494C-B597-01EEBE4601EE}|..\\Entidades\\Entidades\\Entidades.csproj|c:\\users\\thiago\\onedrive\\escritorio\\rpp_escaner_thiagorodriguez\\entidades\\entidades\\escaner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E3B7F985-8F0D-46C5-94B0-54D3F6B2543B}|Test\\Test.csproj|c:\\users\\thiago\\onedrive\\escritorio\\rpp_escaner_thiagorodriguez\\test\\test\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E3B7F985-8F0D-46C5-94B0-54D3F6B2543B}|Test\\Test.csproj|solutionrelative:test\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{DD1BCAC7-6103-494C-B597-01EEBE4601EE}|..\\Entidades\\Entidades\\Entidades.csproj|c:\\users\\thiago\\onedrive\\escritorio\\rpp_escaner_thiagorodriguez\\entidades\\entidades\\informes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
@@ -41,7 +41,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 9,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
@@ -53,18 +53,17 @@
               "RelativeToolTip": "..\\Entidades\\Entidades\\Informes.cs",
               "ViewState": "AQIAAA0AAAAAAAAAAAAgwCYAAAA6AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-12T14:52:13.198Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-12T14:52:13.198Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "Escaner.cs",
               "DocumentMoniker": "C:\\Users\\Thiago\\OneDrive\\Escritorio\\RPP_Escaner_ThiagoRodriguez\\Entidades\\Entidades\\Escaner.cs",
               "RelativeDocumentMoniker": "..\\Entidades\\Entidades\\Escaner.cs",
               "ToolTip": "C:\\Users\\Thiago\\OneDrive\\Escritorio\\RPP_Escaner_ThiagoRodriguez\\Entidades\\Entidades\\Escaner.cs",
               "RelativeToolTip": "..\\Entidades\\Entidades\\Escaner.cs",
-              "ViewState": "AQIAAGAAAAAAAAAAAAAUwGEAAAARAAAA",
+              "ViewState": "AQIAADsAAAAAAAAAAAAiwDwAAABQAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-12T14:26:11.871Z",
               "EditorCaption": ""
@@ -79,8 +78,7 @@
               "RelativeToolTip": "..\\..\\PP_Escaner_ThiagoRodriguez\\Entidades\\Entidades\\TipoIncorrectoException.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-12T02:24:58.574Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-12T02:24:58.574Z"
             },
             {
               "$type": "Document",
@@ -156,7 +154,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Thiago\\OneDrive\\Escritorio\\RPP_Escaner_ThiagoRodriguez\\Test\\Test\\Program.cs",
               "RelativeDocumentMoniker": "Test\\Program.cs",
