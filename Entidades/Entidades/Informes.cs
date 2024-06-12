@@ -18,7 +18,7 @@ namespace Entidades
             extension = 0;
             cantidad = 0;
             resumen = "";
-            if (e.Tipo == Escaner.TipoDoc.libro)
+            if (e.Tipo == Escaner.TipoDoc.libro) //verificamos si el el escaner del documento es de tipo libro
             {
                 foreach (Libro libro in e.ListaDocumento)
                 {

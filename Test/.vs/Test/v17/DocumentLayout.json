@@ -1,31 +1,37 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Thiago\\OneDrive\\Escritorio\\PP_Escaner_ThiagoRodriguez\\Test\\",
+  "WorkspaceRootPath": "C:\\Users\\Thiago\\OneDrive\\Escritorio\\RPP_Escaner_ThiagoRodriguez\\Test\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{DD1BCAC7-6103-494C-B597-01EEBE4601EE}|..\\Entidades\\Entidades\\Entidades.csproj|c:\\users\\thiago\\onedrive\\escritorio\\pp_escaner_thiagorodriguez\\entidades\\entidades\\tipoincorrectoexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E3B7F985-8F0D-46C5-94B0-54D3F6B2543B}|Test\\Test.csproj|C:\\Users\\Thiago\\OneDrive\\Escritorio\\PP_Escaner_ThiagoRodriguez\\Test\\test\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{E3B7F985-8F0D-46C5-94B0-54D3F6B2543B}|Test\\Test.csproj|C:\\Users\\Thiago\\OneDrive\\Escritorio\\RPP_Escaner_ThiagoRodriguez\\Test\\test\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E3B7F985-8F0D-46C5-94B0-54D3F6B2543B}|Test\\Test.csproj|solutionrelative:test\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DD1BCAC7-6103-494C-B597-01EEBE4601EE}|..\\Entidades\\Entidades\\Entidades.csproj|c:\\users\\thiago\\onedrive\\escritorio\\pp_escaner_thiagorodriguez\\entidades\\entidades\\escaner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{DD1BCAC7-6103-494C-B597-01EEBE4601EE}|..\\Entidades\\Entidades\\Entidades.csproj|c:\\users\\thiago\\onedrive\\escritorio\\rpp_escaner_thiagorodriguez\\entidades\\entidades\\escaner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DD1BCAC7-6103-494C-B597-01EEBE4601EE}|..\\Entidades\\Entidades\\Entidades.csproj|c:\\users\\thiago\\onedrive\\escritorio\\pp_escaner_thiagorodriguez\\entidades\\entidades\\libro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{DD1BCAC7-6103-494C-B597-01EEBE4601EE}|..\\Entidades\\Entidades\\Entidades.csproj|c:\\users\\thiago\\onedrive\\escritorio\\rpp_escaner_thiagorodriguez\\entidades\\entidades\\informes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DD1BCAC7-6103-494C-B597-01EEBE4601EE}|..\\Entidades\\Entidades\\Entidades.csproj|c:\\users\\thiago\\onedrive\\escritorio\\pp_escaner_thiagorodriguez\\entidades\\entidades\\informes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|c:\\users\\thiago\\onedrive\\escritorio\\pp_escaner_thiagorodriguez\\entidades\\entidades\\tipoincorrectoexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DD1BCAC7-6103-494C-B597-01EEBE4601EE}|..\\Entidades\\Entidades\\Entidades.csproj|c:\\users\\thiago\\onedrive\\escritorio\\pp_escaner_thiagorodriguez\\entidades\\entidades\\documento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|c:\\users\\thiago\\onedrive\\escritorio\\pp_escaner_thiagorodriguez\\entidades\\entidades\\entidades.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DD1BCAC7-6103-494C-B597-01EEBE4601EE}|..\\Entidades\\Entidades\\Entidades.csproj|c:\\users\\thiago\\onedrive\\escritorio\\pp_escaner_thiagorodriguez\\entidades\\entidades\\mapa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|c:\\users\\thiago\\onedrive\\escritorio\\pp_escaner_thiagorodriguez\\entidades\\entidades\\informes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DD1BCAC7-6103-494C-B597-01EEBE4601EE}|..\\Entidades\\Entidades\\Entidades.csproj|c:\\users\\thiago\\onedrive\\escritorio\\pp_escaner_thiagorodriguez\\entidades\\entidades\\entidades.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|c:\\users\\thiago\\onedrive\\escritorio\\pp_escaner_thiagorodriguez\\entidades\\entidades\\escaner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|c:\\users\\thiago\\onedrive\\escritorio\\pp_escaner_thiagorodriguez\\entidades\\entidades\\mapa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|c:\\users\\thiago\\onedrive\\escritorio\\pp_escaner_thiagorodriguez\\entidades\\entidades\\libro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|c:\\users\\thiago\\onedrive\\escritorio\\pp_escaner_thiagorodriguez\\entidades\\entidades\\documento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -35,16 +41,42 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 9,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
+              "Title": "Informes.cs",
+              "DocumentMoniker": "C:\\Users\\Thiago\\OneDrive\\Escritorio\\RPP_Escaner_ThiagoRodriguez\\Entidades\\Entidades\\Informes.cs",
+              "RelativeDocumentMoniker": "..\\Entidades\\Entidades\\Informes.cs",
+              "ToolTip": "C:\\Users\\Thiago\\OneDrive\\Escritorio\\RPP_Escaner_ThiagoRodriguez\\Entidades\\Entidades\\Informes.cs",
+              "RelativeToolTip": "..\\Entidades\\Entidades\\Informes.cs",
+              "ViewState": "AQIAAA0AAAAAAAAAAAAgwCYAAAA6AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-12T14:52:13.198Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Escaner.cs",
+              "DocumentMoniker": "C:\\Users\\Thiago\\OneDrive\\Escritorio\\RPP_Escaner_ThiagoRodriguez\\Entidades\\Entidades\\Escaner.cs",
+              "RelativeDocumentMoniker": "..\\Entidades\\Entidades\\Escaner.cs",
+              "ToolTip": "C:\\Users\\Thiago\\OneDrive\\Escritorio\\RPP_Escaner_ThiagoRodriguez\\Entidades\\Entidades\\Escaner.cs",
+              "RelativeToolTip": "..\\Entidades\\Entidades\\Escaner.cs",
+              "ViewState": "AQIAAGAAAAAAAAAAAAAUwGEAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-12T14:26:11.871Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "TipoIncorrectoException.cs",
               "DocumentMoniker": "C:\\Users\\Thiago\\OneDrive\\Escritorio\\PP_Escaner_ThiagoRodriguez\\Entidades\\Entidades\\TipoIncorrectoException.cs",
-              "RelativeDocumentMoniker": "..\\Entidades\\Entidades\\TipoIncorrectoException.cs",
+              "RelativeDocumentMoniker": "..\\..\\PP_Escaner_ThiagoRodriguez\\Entidades\\Entidades\\TipoIncorrectoException.cs",
               "ToolTip": "C:\\Users\\Thiago\\OneDrive\\Escritorio\\PP_Escaner_ThiagoRodriguez\\Entidades\\Entidades\\TipoIncorrectoException.cs",
-              "RelativeToolTip": "..\\Entidades\\Entidades\\TipoIncorrectoException.cs",
+              "RelativeToolTip": "..\\..\\PP_Escaner_ThiagoRodriguez\\Entidades\\Entidades\\TipoIncorrectoException.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-12T02:24:58.574Z",
@@ -52,88 +84,85 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 4,
               "Title": "Entidades.csproj",
               "DocumentMoniker": "C:\\Users\\Thiago\\OneDrive\\Escritorio\\PP_Escaner_ThiagoRodriguez\\Entidades\\Entidades\\Entidades.csproj",
-              "RelativeDocumentMoniker": "..\\Entidades\\Entidades\\Entidades.csproj",
+              "RelativeDocumentMoniker": "..\\..\\PP_Escaner_ThiagoRodriguez\\Entidades\\Entidades\\Entidades.csproj",
               "ToolTip": "C:\\Users\\Thiago\\OneDrive\\Escritorio\\PP_Escaner_ThiagoRodriguez\\Entidades\\Entidades\\Entidades.csproj",
-              "RelativeToolTip": "..\\Entidades\\Entidades\\Entidades.csproj",
+              "RelativeToolTip": "..\\..\\PP_Escaner_ThiagoRodriguez\\Entidades\\Entidades\\Entidades.csproj",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
               "WhenOpened": "2024-06-07T02:24:17.812Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "Informes.cs",
               "DocumentMoniker": "C:\\Users\\Thiago\\OneDrive\\Escritorio\\PP_Escaner_ThiagoRodriguez\\Entidades\\Entidades\\Informes.cs",
-              "RelativeDocumentMoniker": "..\\Entidades\\Entidades\\Informes.cs",
+              "RelativeDocumentMoniker": "..\\..\\PP_Escaner_ThiagoRodriguez\\Entidades\\Entidades\\Informes.cs",
               "ToolTip": "C:\\Users\\Thiago\\OneDrive\\Escritorio\\PP_Escaner_ThiagoRodriguez\\Entidades\\Entidades\\Informes.cs",
-              "RelativeToolTip": "..\\Entidades\\Entidades\\Informes.cs",
+              "RelativeToolTip": "..\\..\\PP_Escaner_ThiagoRodriguez\\Entidades\\Entidades\\Informes.cs",
               "ViewState": "AQIAAAoAAAAAAAAAAAAqwBIAAAAZAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-06T23:13:42.038Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Escaner.cs",
-              "DocumentMoniker": "C:\\Users\\Thiago\\OneDrive\\Escritorio\\PP_Escaner_ThiagoRodriguez\\Entidades\\Entidades\\Escaner.cs",
-              "RelativeDocumentMoniker": "..\\Entidades\\Entidades\\Escaner.cs",
-              "ToolTip": "C:\\Users\\Thiago\\OneDrive\\Escritorio\\PP_Escaner_ThiagoRodriguez\\Entidades\\Entidades\\Escaner.cs",
-              "RelativeToolTip": "..\\Entidades\\Entidades\\Escaner.cs",
-              "ViewState": "AQIAADMAAAAAAAAAAAAywDMAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-03T16:59:08.578Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-06T23:13:42.038Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 6,
+              "Title": "Escaner.cs",
+              "DocumentMoniker": "C:\\Users\\Thiago\\OneDrive\\Escritorio\\PP_Escaner_ThiagoRodriguez\\Entidades\\Entidades\\Escaner.cs",
+              "RelativeDocumentMoniker": "..\\..\\PP_Escaner_ThiagoRodriguez\\Entidades\\Entidades\\Escaner.cs",
+              "ToolTip": "C:\\Users\\Thiago\\OneDrive\\Escritorio\\PP_Escaner_ThiagoRodriguez\\Entidades\\Entidades\\Escaner.cs",
+              "RelativeToolTip": "..\\..\\PP_Escaner_ThiagoRodriguez\\Entidades\\Entidades\\Escaner.cs",
+              "ViewState": "AQIAADMAAAAAAAAAAAAywDMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-03T16:59:08.578Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
               "Title": "Mapa.cs",
               "DocumentMoniker": "C:\\Users\\Thiago\\OneDrive\\Escritorio\\PP_Escaner_ThiagoRodriguez\\Entidades\\Entidades\\Mapa.cs",
-              "RelativeDocumentMoniker": "..\\Entidades\\Entidades\\Mapa.cs",
+              "RelativeDocumentMoniker": "..\\..\\PP_Escaner_ThiagoRodriguez\\Entidades\\Entidades\\Mapa.cs",
               "ToolTip": "C:\\Users\\Thiago\\OneDrive\\Escritorio\\PP_Escaner_ThiagoRodriguez\\Entidades\\Entidades\\Mapa.cs",
-              "RelativeToolTip": "..\\Entidades\\Entidades\\Mapa.cs",
+              "RelativeToolTip": "..\\..\\PP_Escaner_ThiagoRodriguez\\Entidades\\Entidades\\Mapa.cs",
               "ViewState": "AQIAACQAAAAAAAAAAAAowDkAAAAcAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-02T01:13:09.45Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 8,
               "Title": "Libro.cs",
               "DocumentMoniker": "C:\\Users\\Thiago\\OneDrive\\Escritorio\\PP_Escaner_ThiagoRodriguez\\Entidades\\Entidades\\Libro.cs",
-              "RelativeDocumentMoniker": "..\\Entidades\\Entidades\\Libro.cs",
+              "RelativeDocumentMoniker": "..\\..\\PP_Escaner_ThiagoRodriguez\\Entidades\\Entidades\\Libro.cs",
               "ToolTip": "C:\\Users\\Thiago\\OneDrive\\Escritorio\\PP_Escaner_ThiagoRodriguez\\Entidades\\Entidades\\Libro.cs",
-              "RelativeToolTip": "..\\Entidades\\Entidades\\Libro.cs",
+              "RelativeToolTip": "..\\..\\PP_Escaner_ThiagoRodriguez\\Entidades\\Entidades\\Libro.cs",
               "ViewState": "AQIAABgAAAAAAAAAAAAYwC8AAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-30T22:38:30.366Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-30T22:38:30.366Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 9,
               "Title": "Documento.cs",
               "DocumentMoniker": "C:\\Users\\Thiago\\OneDrive\\Escritorio\\PP_Escaner_ThiagoRodriguez\\Entidades\\Entidades\\Documento.cs",
-              "RelativeDocumentMoniker": "..\\Entidades\\Entidades\\Documento.cs",
+              "RelativeDocumentMoniker": "..\\..\\PP_Escaner_ThiagoRodriguez\\Entidades\\Entidades\\Documento.cs",
               "ToolTip": "C:\\Users\\Thiago\\OneDrive\\Escritorio\\PP_Escaner_ThiagoRodriguez\\Entidades\\Entidades\\Documento.cs",
-              "RelativeToolTip": "..\\Entidades\\Entidades\\Documento.cs",
+              "RelativeToolTip": "..\\..\\PP_Escaner_ThiagoRodriguez\\Entidades\\Entidades\\Documento.cs",
               "ViewState": "AQIAABwAAAAAAAAAAAAQwDwAAAAcAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-24T23:40:12.731Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\Thiago\\OneDrive\\Escritorio\\PP_Escaner_ThiagoRodriguez\\Test\\Test\\Program.cs",
+              "DocumentMoniker": "C:\\Users\\Thiago\\OneDrive\\Escritorio\\RPP_Escaner_ThiagoRodriguez\\Test\\Test\\Program.cs",
               "RelativeDocumentMoniker": "Test\\Program.cs",
-              "ToolTip": "C:\\Users\\Thiago\\OneDrive\\Escritorio\\PP_Escaner_ThiagoRodriguez\\Test\\Test\\Program.cs",
+              "ToolTip": "C:\\Users\\Thiago\\OneDrive\\Escritorio\\RPP_Escaner_ThiagoRodriguez\\Test\\Test\\Program.cs",
               "RelativeToolTip": "Test\\Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAADkAAAARAAAA",
+              "ViewState": "AQIAAJQAAAAAAAAAAAAgwK8AAAARAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-24T21:53:05.813Z",
               "EditorCaption": ""

@@ -50,7 +50,8 @@ namespace Entidades
 
             foreach (Documento doc in e.listaDocumento)
             {
-
+                //verificamos si los dos documnetos son del mismo tipo
+                //y verificamos si el escaner es de tipo mapa o libro al igual q el documento d 
                 if (d.GetType() == doc.GetType() && ((e.Tipo == TipoDoc.mapa && d is Mapa) || (e.Tipo == TipoDoc.libro && d is Libro)))
                 {
 
@@ -95,8 +96,6 @@ namespace Entidades
             {
                 if (e != d && d.Estado == Documento.Paso.inicio)
                 {
-
-
                     if (d.AvanzarEstado() && d.Estado == Documento.Paso.distribuido)
                     {
                         e.listaDocumento.Add(d);
@@ -104,10 +103,9 @@ namespace Entidades
                     }
                 }
             }
-            catch (TipoIncorrectoException tiex)
+            catch (TipoIncorrectoException execp)
             {
-
-                throw new TipoIncorrectoException("El documento no se pudo añadir a la lista", "Escaner.cs", "Sobrecarga +(Escaner e, Documento d)", tiex);
+                throw new TipoIncorrectoException("El documento no se pudo añadir a la lista", "Escaner.cs", "Sobrecarga +(Escaner e, Documento d)", execp);
             }
 
 
