@@ -44,50 +44,81 @@ namespace Entidades
         #endregion
 
         #region Sobrecarga de operadores
-        public static bool operator !=(Escaner e, Documento d)
-        {
-            return !e.ListaDocumento.Contains(d);
-        }
-
         public static bool operator ==(Escaner e, Documento d)
         {
-            if ((e.tipo == TipoDoc.libro && d is Libro) || (e.tipo == TipoDoc.mapa && d is Mapa))
+            bool retorno = false;
+
+            foreach (Documento doc in e.listaDocumento)
             {
-                return e.ListaDocumento.Contains(d);
+
+                if (d.GetType() == doc.GetType() && ((e.Tipo == TipoDoc.mapa && d is Mapa) || (e.Tipo == TipoDoc.libro && d is Libro)))
+                {
+
+                    if (d.GetType() == typeof(Libro))
+                    {
+                        Libro aux1 = (Libro)doc;
+                        Libro aux2 = (Libro)d;
+                        if (aux1 == aux2)
+                        {
+                            retorno = true;
+                        }
+                    }
+                    else
+                    {
+                        Mapa aux1 = (Mapa)doc;
+                        Mapa aux2 = (Mapa)d;
+
+                        if (aux1 == aux2)
+                        {
+                            retorno = true;
+                        }
+                    }
+                }
+                else
+                {
+                    throw new TipoIncorrectoException("Este escáner no acepta este tipo de documento", "Escaner.cs", "Sobrecarga ==(Escaner e, Documento d)");
+                }
+
             }
-            else
-            {
-                throw new TipoIncorrectoException("Este escáner no acepta este tipo de documento", nameof(Escaner), "operator ==");
-            }
+            return retorno;
+        }
+
+        public static bool operator !=(Escaner e, Documento d)
+        {
+            return !(e == d);
         }
 
         public static bool operator +(Escaner e, Documento d)
         {
+            bool retorno = false;
             try
             {
                 if (e != d && d.Estado == Documento.Paso.inicio)
                 {
-                    d.Estado = Documento.Paso.distribuido;
-                    e.ListaDocumento.Add(d);
-                    return true;
+
+
+                    if (d.AvanzarEstado() && d.Estado == Documento.Paso.distribuido)
+                    {
+                        e.listaDocumento.Add(d);
+                        retorno = true;
+                    }
                 }
             }
-            catch (TipoIncorrectoException ex)
+            catch (TipoIncorrectoException tiex)
             {
-                throw new Exception("El documento no se pudo añadir a la lista", ex);
+
+                throw new TipoIncorrectoException("El documento no se pudo añadir a la lista", "Escaner.cs", "Sobrecarga +(Escaner e, Documento d)", tiex);
             }
-            return false;
+
+
+            return retorno;
         }
         #endregion
 
         #region Metodos
         public bool CambiarEstadoDocumento(Documento d)
         {
-            if (d.AvanzarEstado())
-            {
-                return true;
-            }
-            return false;
+            return d.AvanzarEstado();
         }
         #endregion
 

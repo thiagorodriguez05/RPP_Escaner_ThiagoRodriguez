@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Thiago\\OneDrive\\Escritorio\\PP_Escaner_ThiagoRodriguez\\Entidades\\Entidades\\Entidades.csproj": {}
+    "C:\\Users\\Thiago\\OneDrive\\Escritorio\\RPP_Escaner_ThiagoRodriguez\\Entidades\\Entidades\\Entidades.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Thiago\\OneDrive\\Escritorio\\PP_Escaner_ThiagoRodriguez\\Entidades\\Entidades\\Entidades.csproj": {
+    "C:\\Users\\Thiago\\OneDrive\\Escritorio\\RPP_Escaner_ThiagoRodriguez\\Entidades\\Entidades\\Entidades.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Thiago\\OneDrive\\Escritorio\\PP_Escaner_ThiagoRodriguez\\Entidades\\Entidades\\Entidades.csproj",
+        "projectUniqueName": "C:\\Users\\Thiago\\OneDrive\\Escritorio\\RPP_Escaner_ThiagoRodriguez\\Entidades\\Entidades\\Entidades.csproj",
         "projectName": "Entidades",
-        "projectPath": "C:\\Users\\Thiago\\OneDrive\\Escritorio\\PP_Escaner_ThiagoRodriguez\\Entidades\\Entidades\\Entidades.csproj",
+        "projectPath": "C:\\Users\\Thiago\\OneDrive\\Escritorio\\RPP_Escaner_ThiagoRodriguez\\Entidades\\Entidades\\Entidades.csproj",
         "packagesPath": "C:\\Users\\Thiago\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Thiago\\OneDrive\\Escritorio\\PP_Escaner_ThiagoRodriguez\\Entidades\\Entidades\\obj\\",
+        "outputPath": "C:\\Users\\Thiago\\OneDrive\\Escritorio\\RPP_Escaner_ThiagoRodriguez\\Entidades\\Entidades\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Thiago\\AppData\\Roaming\\NuGet\\NuGet.Config",

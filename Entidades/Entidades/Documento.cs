@@ -38,7 +38,7 @@ namespace Entidades
         #region Metodos
         public bool AvanzarEstado()
         {
-            bool retorno = true;
+            bool retorno = false;
             if (this.Estado != Paso.terminado)
             {
                 this.estado++;

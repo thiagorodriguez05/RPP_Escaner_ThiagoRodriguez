@@ -33,47 +33,24 @@ namespace Test
             // ESCANERS
             Escaner escanerLibros = new Escaner("HP", Escaner.TipoDoc.libro);
             Escaner escanerMapas = new Escaner("HP", Escaner.TipoDoc.mapa);
-            bool pudo;
-            try
-            {
-                Console.WriteLine("Añadimos los libros y mapas a sus respectivos escaneres:");
-                Console.WriteLine($"True -> ({pudo = escanerLibros + l1})");
-                Console.WriteLine($"True -> ({pudo = escanerLibros + l2})");
-                Console.WriteLine($"False -> ({pudo = escanerLibros + l3})");
-                Console.WriteLine($"False -> ({pudo = escanerLibros + l4})");
-                Console.WriteLine($"False  -> ({pudo = escanerLibros + l5})");
-                Console.WriteLine($"True -> ({pudo = escanerMapas + m1})");
-                Console.WriteLine($"True -> ({pudo = escanerMapas + m2})");
-                Console.WriteLine($"True -> ({pudo = escanerMapas + m3})");
-                Console.WriteLine($"True -> ({pudo = escanerMapas + m4})");
-                Console.WriteLine($"False -> ({pudo = escanerMapas + m5})\n");
+            Console.WriteLine("Añadimos los libros y mapas a sus respectivos escaneres:");
+            AgregarDocumento(escanerLibros, l1);
+            AgregarDocumento(escanerLibros, l2);
+            AgregarDocumento(escanerLibros, l3);
+            AgregarDocumento(escanerLibros, l4);
+            AgregarDocumento(escanerLibros, l5);
+            AgregarDocumento(escanerMapas, m1);
+            AgregarDocumento(escanerMapas, m2);
+            AgregarDocumento(escanerMapas, m3);
+            AgregarDocumento(escanerMapas, m4);
+            AgregarDocumento(escanerMapas, m5);
 
-                // Esto lanza una excepcion
-                Console.WriteLine($"Intento agregar un libro al escaner de mapas:");
-                try
-                {
-                    pudo = escanerMapas + l1;
-                }
-                catch (TipoIncorrectoException ex)
-                {
-                    Console.WriteLine(ex.ToString());
-                }
+            Console.WriteLine($"Intento agregar un libro al escaner de mapas:");
+            AgregarDocumento(escanerMapas, l1);
 
-                // Esto lanza una excepcion
-                Console.WriteLine($"\nIntento agregar un mapa al escaner de libros:");
-                try
-                {
-                    pudo = escanerLibros + m1;
-                }
-                catch (TipoIncorrectoException ex)
-                {
-                    Console.WriteLine(ex.ToString());
-                }
-            }
-            catch (TipoIncorrectoException ex)
-            {
-                Console.WriteLine(ex.ToString());
-            }
+            Console.WriteLine($"\nIntento agregar un mapa al escaner de libros:");
+            AgregarDocumento(escanerLibros, m1);
+
 
             Console.WriteLine();
 
@@ -185,6 +162,19 @@ namespace Test
             Console.WriteLine($"Cantidad de superficie terminadas: {extensionMapaTerminado}.");
             Console.WriteLine(resumenMapaTerminado);
             Console.WriteLine("---------------------");
+
+            static void AgregarDocumento(Escaner escaner, Documento doc)
+            {
+                try
+                {
+                    bool pudo = escaner + doc;
+                    Console.WriteLine($"Resultado -> {pudo}");
+                }
+                catch (TipoIncorrectoException ex)
+                {
+                    Console.WriteLine(ex.ToString());
+                }
+            }
         }
     }
 }
